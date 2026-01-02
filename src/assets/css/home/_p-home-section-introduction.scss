@@ -1,0 +1,14 @@
+
+.p-home-section-introduction{
+  background:#cfc;
+  display:flex;
+  position:relative;
+  height:100vh;
+  height:100dvh;
+  &__title{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+}
