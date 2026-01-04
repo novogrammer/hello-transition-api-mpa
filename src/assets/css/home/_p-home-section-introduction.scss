@@ -1,14 +1,18 @@
 
 .p-home-section-introduction{
   background:#cfc;
-  display:flex;
-  position:relative;
-  height:100vh;
-  height:100dvh;
   &__title{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%,-50%);
+  }
+  &__link{
+    display:block;
+    width:30em;
+    &--about{
+      view-transition-name: about-catch;
+    }
+    img{
+      display:block;
+      width:100%;
+      height:auto;
+    }
   }
 }

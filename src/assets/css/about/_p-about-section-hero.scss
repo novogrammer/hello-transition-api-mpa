@@ -1,14 +1,22 @@
 
 .p-about-section-hero{
   background:#ccf;
-  display:flex;
   position:relative;
-  height:100vh;
-  height:100dvh;
+  &__catch{
+    display:block;
+    width:80vw;
+    margin-left:auto;
+    margin-right:auto;
+    view-transition-name: about-catch;
+    img{
+      display:block;
+      width:100%;
+      height:auto;
+    }
+  }
   &__title{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%,-50%);
   }
 }
+// ::view-transition-group(about-catch) {
+//   z-index: 1;
+// }
